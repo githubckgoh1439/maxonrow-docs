@@ -54,7 +54,7 @@ Msgs define your application's state transitions.
 They are encoded and passed around the network wrapped in Txs. 
 Messages are "owned" by a single module, meaning they are routed to only one of your applications modules. 
 Each module has its own set of messages that it uses to update its subset of the chain state. 
-The Cosmos SDK wraps and unwraps Msgs from Txs, which means developer only have to define the relevant Msgs. 
+Maxonrow SDK relies on Cosmos SDK wraps and unwraps Msgs from Txs, which means developer only have to define the relevant Msgs. 
 Msgs must satisfy the following interface:
 
 *** Interface type (Testing Purpose)
@@ -110,6 +110,6 @@ Your non-fungible token module will expose few queries:
 * ItemData
 
 
-
-### Client with CLI  (as Optional)
+### Client with CLI  
+-- Optional
 
