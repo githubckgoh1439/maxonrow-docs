@@ -54,8 +54,8 @@ For detailed usage, you can refer to:
 ### CLI Modules
 The Maxonrow SDK uses the cobra library for CLI interactions. This library makes it easy for each module to expose its own commands. To get started defining the user's CLI interactions with your module, create the following files:
 
-* ./x/nameservice/client/cli/query.go
-* ./x/nameservice/client/cli/tx.go
+* ./x/modulename/client/cli/query.go
+* ./x/modulename/client/cli/tx.go
 
 For detailed usage, you can refer to:
 
@@ -65,5 +65,3 @@ For detailed usage, you can refer to:
 * [Fee Settings Module](mxw-Node-CLI-Fee Setting.md "What is Fee Settings Module?") 
 * [Nameservice Module](mxw-Node-CLI-Nameservice.md "What is Nameservice Module?")
 * [Fungible Token Module](mxw-Node-CLI-Fungible-Token.md "What is Fungible Token Module?")
-* [Non-fungible Token Module](mxw-Node-CLI-Non-Fungible-Token.md "What is Non-fungible Token Module?")
-
