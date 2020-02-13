@@ -1,2 +1,2 @@
 # maxonrow-docs
-Maxonrow-go documentation v1.0
+Maxonrow-go documentation test-v0.1
